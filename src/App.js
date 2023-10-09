@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import FunctionComponent from './FunctionComponent';
+import Memorization from './Memorization';
+import Contexthook from './Contexthook';
+import UseReducer from './UseReducer';
+import UseRef from './UseRef';
+import UseMemo from './UseMemo';
+import UseCallback from './Usecallback'
+import CustomHooksInput from './CustomHooksInput';
 
 function App() {
+
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*    <FunctionComponent /> */}
+      {/* <Contexthook /> */}
+      {/* <UseReducer /> */}
+      {/* <UseRef /> */}
+      {/* <UseMemo /> */}
+      {/* <UseCallback /> */}
+      <CustomHooksInput />
+
+
     </div>
   );
 }
